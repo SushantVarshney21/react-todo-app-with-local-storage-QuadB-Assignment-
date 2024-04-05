@@ -1,9 +1,12 @@
 {
   "name": "react-todo",
+  "homepage": "https://github.com/SushantVarshney21/react-todo-app-with-local-storage-QuadB-Assignment-.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
